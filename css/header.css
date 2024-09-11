@@ -1,0 +1,96 @@
+@import url(./variables.css);
+
+header{
+    background: var(--color-greenVariante1);
+    position: relative;
+    border-radius: 0 0 14px 14px;
+}
+/* menu */
+.menu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 96%;
+    height: 90px;
+    margin: 0 auto;
+    position: sticky;
+    top: 0;
+    bottom: 0;
+}
+.menu_content{
+   width: 90%; 
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-between;
+}
+.menu__list, .login__list{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 27px;
+    
+    & .menu__link, .login__link{
+        text-decoration: none;
+        color: white;
+        font-size: 17px;
+    }
+}
+
+.login__list{
+    gap: 43px;
+}
+
+/* login */
+#Prueba_btn , #Login_btn{
+    width: 150px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .5s ease;
+}
+#Login_btn{
+    background: var(--color-greenVariante2);
+    border-radius: 20px;
+}
+#Login_btn:hover{
+    transform:  scale(1.1);
+    box-shadow: rgba(15, 54, 3, 0.5) 16px 14px 20px;
+}
+#Prueba_btn{
+    border-radius: 20px;
+    border: 3px var(--color-greenVariante3) solid;
+}
+#Prueba_btn:hover{
+    background: var(--color-greenVariante3);
+    transform: scale(1.1);
+    color: var(--color-greenVariante1);
+}
+
+
+.logo{
+    width: 90px;
+    background-image: url(../img/Fashio1.png);
+    background-size: cover; 
+    background-position: center;
+}
+/* links disenios */
+.menu__link{
+    color: #93c0bd;
+}
+.menu__link::after{
+    content: '';
+    height: 4px;
+    width: 0;
+    background-color: var(--link-hover-color);
+    display: block;
+    transition: all 300ms;
+}
+.menu__link:hover::after{
+    width: 100%;
+}
+.menu__link:hover{
+    color: antiquewhite;
+}

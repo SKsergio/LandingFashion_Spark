@@ -1,0 +1,22 @@
+@import url(./variables.css);
+
+.main__content{
+    width: 90%;
+    margin: 0 auto;
+}
+.principal{
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+}
+.info_text{
+    margin-left: 70px;
+}
+.slogan{
+    font-family: var( --font-decoration);
+    font-size: 43px;
+}
+.prueba{
+    width: 400px;
+    height: 400px;
+}

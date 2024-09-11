@@ -1,0 +1,22 @@
+@import url(./variables.css);
+
+body{
+    display: grid;
+    gap: 70px;
+    background: var(--color-backgroundWhite);
+    grid-template-areas: "header header header"
+    "main main main"
+    "footer footer footer";
+}
+body header{
+    grid-area: header;
+    position: relative;
+    /* background: var(--color-backgound); */
+}
+body main{
+    display: grid;
+    grid-area: main;
+}
+body footer{
+    grid-area: footer;
+}
