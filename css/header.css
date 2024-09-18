@@ -72,6 +72,7 @@ header{
 
 .logo{
     width: 90px;
+    height: 100px;
     background-image: url(../img/Fashio1.png);
     background-size: cover; 
     background-position: center;
