@@ -18,7 +18,7 @@ header{
     bottom: 0;
 }
 .menu_content{
-   width: 90%; 
+   width: 90%;
    display: flex;
    flex-direction: row;
    align-items: center;
@@ -30,7 +30,7 @@ header{
     flex-direction: row;
     align-items: center;
     gap: 27px;
-    
+
     & .menu__link, .login__link{
         text-decoration: none;
         color: white;
@@ -73,8 +73,8 @@ header{
 .logo{
     width: 90px;
     height: 100px;
-    background-image: url(../img/Fashio1.png);
-    background-size: cover; 
+    background-image: url(../img/logo.png);
+    background-size: cover;
     background-position: center;
 }
 /* links disenios */
